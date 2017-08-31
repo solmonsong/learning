@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+//eclipse.project {
+//	natures 'org.springsource.ide.eclipse.gradle.core.nature'
+//}
+
+dependencies {
+
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
